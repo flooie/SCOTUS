@@ -69,7 +69,7 @@ function getspeechone(){
 	var ax = window.sessionStorage.getItem('speechone')
 	console.log("ax")
 	console.log([ax])
-	var x = ["ALITO: HOBBY LOBBY"]
+	var x = [ax]
 	var y = ["RBG: I dissent"]
 	
 	
