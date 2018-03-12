@@ -63,11 +63,11 @@ function getspeechone(){
 
 (function() {
 
-	getspeechone();
+	var x = getspeechone();
 	
 //     var x =  "PALIN: adsfadsf asdf asdf asdf asdf adsf adsf adsf asdf adsf adsfdasfdfdsafsdf adsf asdf "
 //     var y =  "RBG: I dissent"
-	var x = ["ALITO: HOBBY LOBBY"]
+// 	var x = ["ALITO: HOBBY LOBBY"]
 	var y = ["RBG: I dissent"]
 	
 	console.log(x)
