@@ -63,6 +63,8 @@ function getspeechone(){
 
 (function() {
 
+	getspeechone();
+	
 //     var x =  "PALIN: adsfadsf asdf asdf asdf asdf adsf adsf adsf asdf adsf adsfdasfdfdsafsdf adsf asdf "
 //     var y =  "RBG: I dissent"
 	var x = ["ALITO: HOBBY LOBBY"]
