@@ -224,7 +224,7 @@ function getspeechone(){
 
     var force = d3.layout.force()
     .charge(0)
-    .size([width, height - 80])
+    .size([width, height - 20])
     .on("tick", tick);
 
     var node = d3.select(".g-nodes").selectAll(".g-node"),
