@@ -8,7 +8,7 @@
       var xlist = []
       var cd = {}
        while (i <  tds.length) {
-        console.log(tds[i].innerText)
+//         console.log(tds[i].innerText)
 	       xlist.push(tds[i].innerText.toUpperCase()  + ": " + tds[i+1].innerText)
 
            cd[tds[i].innerText.toUpperCase()] = {name:tds[i+2].innerText, title:tds[i+2].innerText}
