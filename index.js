@@ -61,6 +61,9 @@ function getspeechone(){
 //     var y =  "RBG: I dissent"
 	var x = getspeechone();
 	var y = getspeechtwo();
+	
+	console.log(x)
+	
     data.parties = [ {name: "democrat", speeches: x }, {name: "republican", speeches: y } ].map(party);
 
     data.titles = JSON.parse(window.sessionStorage.getItem('titlesobj'))
