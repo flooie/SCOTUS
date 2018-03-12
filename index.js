@@ -46,11 +46,11 @@
 function getspeechone(){
 	
 	$.get('alito.txt', function(data) {
-		console.log(data);
-		
+		console.log(["ALITO: " + data]);
+		return ["ALITO: " + data]
 	});
 	
-    return JSON.parse(window.sessionStorage.getItem('datain'))
+//     return JSON.parse(window.sessionStorage.getItem('datain'))
 
 
 }
