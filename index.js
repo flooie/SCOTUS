@@ -44,6 +44,12 @@
     var data = {};
 
 function getspeechone(){
+	
+	$.get('alito.txt', function(data) {
+		console.log(data);
+		
+	});
+	
     return JSON.parse(window.sessionStorage.getItem('datain'))
 
 
