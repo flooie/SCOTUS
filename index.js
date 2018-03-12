@@ -53,7 +53,7 @@ function getspeechone(){
 		window.sessionStorage.setItem("speechtwo", "RGB: " + data)
 	});
 
-	
+}
 
 
 (function() {
