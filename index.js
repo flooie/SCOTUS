@@ -46,8 +46,7 @@
 function getspeechone(){
 	
 	$.get('alito.txt', function(data) {
-		console.log(["ALITO: " + data]);
-		return ["ALITO: " + data]
+		window.sessionStorage.setItem("speechone", "ALITO: " + data)
 	});
 	
 //     return JSON.parse(window.sessionStorage.getItem('datain'))
@@ -67,10 +66,12 @@ function getspeechone(){
 	
 //     var x =  "PALIN: adsfadsf asdf asdf asdf asdf adsf adsf adsf asdf adsf adsfdasfdfdsafsdf adsf asdf "
 //     var y =  "RBG: I dissent"
-// 	var x = ["ALITO: HOBBY LOBBY"]
+	var ax = window.sessionStorage.getItem('datain2')
+	console.log("ax")
+	console.log([ax])
+	var x = ["ALITO: HOBBY LOBBY"]
 	var y = ["RBG: I dissent"]
 	
-	console.log(x)
 	
     data.parties = [ {name: "democrat", speeches: x }, {name: "republican", speeches: y } ].map(party);
 
