@@ -68,30 +68,8 @@ function getspeechone(){
     data.speakers = {};
 
     data.topics = [
-    {
-        name: "research",
-        re: /\b(research)\b/gi,
-        x: 123,
-        y: 181
-    },
-    {
-        name: "learning",
-        re: /\b(learning)\b/gi,
-        x: 43,
-        y: 203
-    },
-    {
-        name: "authentic",
-        re: /\b(authentic)\b/gi,
-        x: 618,
-        y: 201
-    },
-    {
-        name: "inquiry",
-        re: /\b(inquiry)\b/gi,
-        x: 361,
-        y: 256
-    },
+   
+  
     {
         name: "Stem",
         re: /\b(Stem)\b/gi,
@@ -99,111 +77,7 @@ function getspeechone(){
         y: 235
     },
 
-    {
-        name: "self direct",
-        re: /\b(self direct)\b/gi,
-        x: 862,
-        y: 217
-    },
-
-    {
-        name: "personalize",
-        re: /\b(personalize)\b/gi,
-        x: 410,
-        y: 340
-    },
-    {
-        name: "collaboration",
-        re: /\b(collaboration)\b/gi,
-        x: 267,
-        y: 218
-    },
     
-    {
-        name: "real world",
-        re: /\b(real world)\b/gi,
-        x: 73,
-        y: 206
-    },
-    {
-        name: "research",
-        re: /\b(research)\b/gi,
-        x: 221,
-        y: 230
-    },
-    
-    {
-        name: "authentic",
-        re: /\b(authentic)\b/gi,
-        x: 650,
-        y: 246
-    },
-    {
-        name: "problem solvers",
-        re: /\b(problem solvers)\b/gi,
-        x: 401,
-        y: 113
-    },
-    {
-        name: "creative",
-        re: /\b(creative)\b/gi,
-        x: 214,
-        y: 248
-    },
-    {
-        name: "innovative",
-        re: /\b(innovative)\b/gi,
-        x: 214,
-        y: 248
-    },
-        {
-        name: "communicate",
-        re: /\b(communicate)\b/gi,
-        x: 214,
-        y: 248
-    },
-    {
-        name: "students",
-        re: /\b(students)\b/gi,
-        x: 214,
-        y: 248
-    },
-        {
-        name: "critical thinking",
-        re: /\b(critical thinking)\b/gi,
-        x: 214,
-        y: 248
-    },
-        {
-        name: "performance-based",
-        re: /\b(performance-based)\b/gi,
-        x: 214,
-        y: 248
-    },
-        {
-        name: "interdisciplinary",
-        re: /\b(interdisciplinary)\b/gi,
-        x: 214,
-        y: 248
-    },
-        {
-        name: "industry partners",
-        re: /\b(industry partners)\b/gi,
-        x: 214,
-        y: 248
-    },
-    {
-        name: "mentor",
-        re: /\b(mentor)\b/gi,
-        x: 214,
-        y: 28
-    },
-        {
-        name: "Adult world connections",
-        re: /\b(Adult world connections)\b/gi,
-        x: 214,
-        y: 248
-    }
 
 
 
