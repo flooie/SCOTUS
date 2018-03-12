@@ -204,7 +204,7 @@ function getspeechone(){
         clipPadding = 4,
         minRadius = 16,
         // minimum collision radius
-        maxRadius = 65,
+        maxRadius = 45,
         // also determines collision search radius
         maxMentions = 100,
         // don't show full transcripts
