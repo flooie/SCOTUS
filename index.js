@@ -48,16 +48,12 @@ function getspeechone(){
 	$.get('alito.txt', function(data) {
 		window.sessionStorage.setItem("speechone", "ALITO: " + data)
 	});
+		
+	$.get('rbg.txt', function(data) {
+		window.sessionStorage.setItem("speechtwo", "RGB: " + data)
+	});
+
 	
-//     return JSON.parse(window.sessionStorage.getItem('datain'))
-
-
-}
-    function getspeechtwo(){
-// 	    return ["HELLO PALIN: asdfasdfasdf asdf asdf "]
-	return JSON.parse(window.sessionStorage.getItem('datain2'))
-
-}
 
 
 (function() {
@@ -67,10 +63,11 @@ function getspeechone(){
 //     var x =  "PALIN: adsfadsf asdf asdf asdf asdf adsf adsf adsf asdf adsf adsfdasfdfdsafsdf adsf asdf "
 //     var y =  "RBG: I dissent"
 	var ax = window.sessionStorage.getItem('speechone')
-	console.log("ax")
-	console.log([ax])
+	var bx = window.sessionStorage.getItem('speechtwo')
+// 	console.log("ax")
+// 	console.log([ax])
 	var x = [ax]
-	var y = ["RBG: I dissent"]
+	var y = [bx]
 	
 	
     data.parties = [ {name: "democrat", speeches: x }, {name: "republican", speeches: y } ].map(party);
