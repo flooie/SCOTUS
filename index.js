@@ -19,7 +19,7 @@
 	  
 	  
       var table2 = document.getElementById('table2')
-      console.log(table2.getElementsByTagName("td"))
+//       console.log(table2.getElementsByTagName("td"))
       var tds2 = table2.getElementsByTagName("td")
       var i = 0
       var xlist2 = []
@@ -31,7 +31,7 @@
            i+=3
       }
 
-      console.log(cd)
+//       console.log(cd)
         window.sessionStorage.setItem("datain2", JSON.stringify(xlist2))
         window.sessionStorage.setItem("titlesobj", JSON.stringify(cd))
 
