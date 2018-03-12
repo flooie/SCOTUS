@@ -66,7 +66,7 @@ function getspeechone(){
 	
 //     var x =  "PALIN: adsfadsf asdf asdf asdf asdf adsf adsf adsf asdf adsf adsfdasfdfdsafsdf adsf asdf "
 //     var y =  "RBG: I dissent"
-	var ax = window.sessionStorage.getItem('datain2')
+	var ax = window.sessionStorage.getItem('speechone')
 	console.log("ax")
 	console.log([ax])
 	var x = ["ALITO: HOBBY LOBBY"]
