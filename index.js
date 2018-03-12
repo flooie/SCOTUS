@@ -81,7 +81,7 @@ function getspeechone(){
   
     {
         name: "Stem",
-        re: /\b(Stem)\b/gi,
+        re: /\b(dissent)\b/gi,
         x: 81,
         y: 235
     },
